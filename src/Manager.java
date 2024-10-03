@@ -13,6 +13,7 @@ public class Manager extends Employee{
         System.out.println(baseSalary + commission + bonus);
     }
 
+
     @Override
     public void getDetails() {
         System.out.println("Developer with base salary: " + baseSalary + ", commission: " + commission + ", bonus: " + bonus);
